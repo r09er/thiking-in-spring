@@ -8,12 +8,12 @@
         http://www.springframework.org/schema/context
         https://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="user" class="com.r09er.thinking.in.spring.ioc.overview.dependency.domain.User">
+    <bean id="user" class="com.r09er.thinking.in.spring.ioc.overview.domain.User">
         <property name="id" value="1"/>
         <property name="name" value="罗杰"/>
     </bean>
 
-    <bean id="superUser" class="com.r09er.thinking.in.spring.ioc.overview.dependency.domain.SuperUser" parent="user" primary="true">
+    <bean id="superUser" class="com.r09er.thinking.in.spring.ioc.overview.domain.SuperUser" parent="user" primary="true">
         <property name="address" value="广州"/>
     </bean>
 

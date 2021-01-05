@@ -1,4 +1,4 @@
-package com.r09er.thinking.in.spring.ioc.overview.dependency.domain;
+package com.r09er.thinking.in.spring.ioc.overview.domain;
 
 /**
  *

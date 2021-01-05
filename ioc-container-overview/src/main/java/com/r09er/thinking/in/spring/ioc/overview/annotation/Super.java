@@ -1,4 +1,4 @@
-package com.r09er.thinking.in.spring.ioc.overview.dependency.annotation;
+package com.r09er.thinking.in.spring.ioc.overview.annotation;
 
 
 import java.lang.annotation.*;

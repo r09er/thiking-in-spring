@@ -1,7 +1,7 @@
 package com.r09er.thinking.in.spring.ioc.overview.dependency.lookup;
 
-import com.r09er.thinking.in.spring.ioc.overview.dependency.annotation.Super;
-import com.r09er.thinking.in.spring.ioc.overview.dependency.domain.User;
+import com.r09er.thinking.in.spring.ioc.overview.annotation.Super;
+import com.r09er.thinking.in.spring.ioc.overview.domain.User;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.ObjectFactory;

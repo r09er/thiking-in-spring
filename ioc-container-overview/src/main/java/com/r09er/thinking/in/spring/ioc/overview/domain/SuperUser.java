@@ -1,6 +1,6 @@
-package com.r09er.thinking.in.spring.ioc.overview.dependency.domain;
+package com.r09er.thinking.in.spring.ioc.overview.domain;
 
-import com.r09er.thinking.in.spring.ioc.overview.dependency.annotation.Super;
+import com.r09er.thinking.in.spring.ioc.overview.annotation.Super;
 
 @Super
 public class SuperUser extends User{
