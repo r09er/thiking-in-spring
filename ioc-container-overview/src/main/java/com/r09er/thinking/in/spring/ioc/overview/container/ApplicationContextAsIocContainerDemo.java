@@ -19,6 +19,8 @@ public class ApplicationContextAsIocContainerDemo {
         //启动应用上下文
         annotationConfigApplicationContext.refresh();
         lookupByCollectionType(annotationConfigApplicationContext);
+        //停止上下文
+        annotationConfigApplicationContext.close();
 
     }
 
